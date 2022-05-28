@@ -20,7 +20,7 @@ const UserInput = (props) => {
   }
 
   const submitformhandler = (event) =>{
-    if(enteredtitle.trim().length>0 ,entereddate.trim().length>0,enterednote.trim().length>0){
+    if(enteredtitle.trim().length>0 && entereddate.trim().length>0 && enterednote.trim().length>0){
       props.data(enteredtitle,entereddate,enterednote);
       setEnteredDate('');
       setEnteredTitle('');
