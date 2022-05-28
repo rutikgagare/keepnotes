@@ -19,7 +19,7 @@ function App() {
     setData(previousdata =>{
       const updateddata = [...previousdata,newdata];
       return updateddata;
-    });  
+    }) 
   }
 
   const deletenotehandler = (noteid) =>{
@@ -28,7 +28,7 @@ function App() {
         return item.id !== noteid;
       })
       return updateddata;
-    });  
+    }) 
   }
 
   return (
@@ -40,7 +40,7 @@ function App() {
        <DisplayData items={data} deletenote={deletenotehandler}></DisplayData>
      </div>
     </div>
-  );
+  )
 }
 
 export default App;
