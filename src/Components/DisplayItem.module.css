@@ -10,6 +10,7 @@
     background-color: rgb(11, 168, 186);
     padding: 1rem;
     margin: 1rem auto;
+    max-width: 90%;
     /* position: relative;  */
 }
 
@@ -24,7 +25,7 @@
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1rem;
-    max-width:99%;
+    max-width:90%;
     word-wrap:break-word;
 }
 
