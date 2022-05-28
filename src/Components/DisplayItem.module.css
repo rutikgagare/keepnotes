@@ -30,3 +30,8 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .item{
+        max-width: 300px;
+    }
+}
