@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins&display=swap');
+
+.navbar{
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    padding: 0.1rem 2rem;
+    display: flex;
+    background: rgb(22, 101, 110);
+    color: white;
+    font-size: 0.9rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
+}
+
+.navbar i{
+    margin-right: 0.8rem;
+}

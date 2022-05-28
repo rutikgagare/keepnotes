@@ -1,0 +1,64 @@
+.inputsection{
+    width: 70%;
+    margin: 2rem auto;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    margin-top: 7rem;
+}
+
+.inputsection input{
+    display: block;
+    margin: 0.5rem 0;
+    border: 2px solid rgb(11, 148, 164);
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    background: rgb(200, 238, 238);
+}
+
+.inputsection textarea {
+    border: 2px solid rgb(11, 148, 164);
+    background: rgb(200, 238, 238);
+    border-radius: 0.2rem;
+    resize: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.inputsection textarea:focus{
+    outline: none;
+}
+
+.inputsection input:focus{
+    outline: none;
+}
+
+.inputsection input[type=text]{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.inputsection input[type=date]{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.inputsection button{
+    width: 130px;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgb(13, 103, 113);
+    color: white;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.inputsection button:hover{
+    background: rgb(62, 177, 189);
+}

@@ -1,0 +1,17 @@
+.notessection{
+    width: 70%;
+    border: 2px solid rgb(19, 100, 105);
+    background: rgb(216, 212, 216);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    .notessection{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
