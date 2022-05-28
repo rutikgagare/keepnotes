@@ -1,12 +1,14 @@
 .item{
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     text-align: left;
     color: white;
     border-radius: 0.5rem;
     background-color: rgb(11, 168, 186);
     padding: 1rem;
+    margin: 1rem auto;
     /* position: relative;  */
 }
 
@@ -21,6 +23,8 @@
     font-size: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 1rem;
+    max-width:90%;
+    word-wrap:break-word;
 }
 
 .item i{
@@ -30,8 +34,3 @@
 }
 
 
-@media screen and (max-width: 800px) {
-    .item{
-        max-width: 60%;
-    }
-}
